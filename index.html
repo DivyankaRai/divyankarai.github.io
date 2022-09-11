@@ -1,12 +1,281 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> 
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  
+   
+   <meta charset="utf-8">
+	<title>Portfolio Website</title>
+	
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">  
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/vendor.css">     
+
+   <!-- script
+   ================================================== -->   
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-153937526-1');
+    </script>
+
+   <!-- favicons ================================================== -->
+	<link rel="icon" type="image/png" href="favicon.png">
+
 </head>
-<body>
-    <h1>hello</h1>
+
+<body id="top">
+
+	<!-- header 
+   ================================================== -->
+   <header>   	
+   	<div class="">
+
+   		<div class="bar">
+   			<a class="menu-toggle" href="#"><span>Menu</span></a>
+
+	   		<div class="logo">
+		         <a href="index.html">Divyanka Rai</a>
+		      </div>		      
+
+		   	<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
+						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
+						<li><a class="smoothscroll"  href="#portfolio" title="">Portfolio</a></li>					
+						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>	
+					</ul>
+				</nav>    		
+   		</div> <!-- /top-bar --> 
+   		
+   	</div> <!-- /row --> 		
+   </header> <!-- /header -->
+
+	<!-- intro section
+   ================================================== -->
+   <section id="intro">   
+
+   	<div class="intro-overlay"></div>	
+
+   	<div class="intro-content">
+   		<div class="row">
+
+   			<div class="col-twelve">
+
+				   <h5>Hello, World.</h5>
+					<h1>I<span style="color: #CC005F;">'</span>m Divyanka<span style="color: #CC005F;">.</span></h1>
+
+                    <p class="intro-position">
+                        <span>Developer</span>
+                        <span>Starter</span>
+                        
+                    </p>
+
+	   			<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+
+	   		</div>  
+   			
+   		</div>   		 		
+   	</div> <!-- /intro-content --> 
+
+        <ul class="intro-social">
+            <li><a href="https://www.linkedin.com/in/divyanka-rai-71a94124b/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/DivyankaRai" target="_blank"><i class="fa fa-github"></i></a></li>
+          
+        </ul> <!-- /intro-social -->      	
+
+   </section> <!-- /intro -->
+
+
+   <!-- about section
+   ================================================== -->
+   <section id="about">
+
+   	<div class="row section-intro">
+   		<div class="col-twelve">
+
+
+   			<h5>About</h5>
+   			<h2>Let me introduce myself.</h2>
+
+   			<div class="intro-info">
+
+				   <img src ="images\IMG-20180812-WA0000-modified (1).png" alt="Picture" /></a>
+
+   				<p class="lead">"Lad with a <font color="#FF0077">million</font> Dreams && trying to do better in Web Development."</p>
+   			</div>   			
+
+   		</div>   		
+   	</div> <!-- /section-intro -->
+
+   	<div class="row about-content">
+
+   		<div class="col-six tab-full">
+
+   			<h3>About</h3>
+                <p>Aspiring full stack web developer. Capable of
+					writing production-ready code using ReactJS,
+					and CSS on the frontend, Node.JS, Express.JS
+					and MongoDb on the backend to build single
+					page applications. Passionate about coding
+					and strongly interested in working in a
+					productbased company.
+				</p>
+
+   			<ul class="info-list">
+   				<li>
+   					<strong>Fullname:</strong>
+   					<span>Divyanka Rai</span>
+   				</li>
+   				<li>
+   					<strong>Website:</strong>
+   					<span>https://github.com/DivyankaRai</span>
+   				</li>
+                    <li>
+                        <strong>Email:</strong>
+                        <span>raidivyanka40@gmail.com</span>
+                    </li>
+
+   			</ul> <!-- /info-list -->
+
+   		</div>
+
+   		<div class="col-six tab-full">
+
+   			<h3>Skills</h3>
+                <p>
+                    <strong>Languages:</strong><br />
+                    <b>English :</b><br /> Read, Write, Speak : <i>Native</i><br />
+                    <b>Hindi :</b><br /> Read, Write, Speak : <i>Native</i><br />
+                   
+
+                </p>
+
+
+                <ul class="skill-bars">
+                    <li>
+<!--                         <div class="progress percent95"><span>95%</span></div> -->
+                        <strong>HTML | CSS</strong>
+                    </li>
+                    <li>
+<!--                         <div class="progress percent90"><span>90%</span></div> -->
+                        <strong>MONGO DB | EXPRESS </strong>
+                    </li>
+                    <li>
+<!--                         <div class="progress percent75"><span>75%</span></div> -->
+                        <strong>JAVASCRIPT | POSTMAN</strong>
+                    </li>
+                    <!-- <li>
+<!--                         <div class="progress percent75"><span>75%</span></div> -->
+                        <!-- <strong>Android Studio | Kotlin, </strong> -->
+                    <!-- </li> --> 
+		    <li>
+<!--                         <div class="progress percent75"><span>75%</span></div> -->
+                        <strong>REACT | REDUX </strong>
+                    </li>
+
+                </ul> <!-- /skill-bars -->		
+
+   		</div>
+
+   	</div>
+
+   	<div class="row button-section">
+   		<div class="col-twelve">
+   			<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
+   			<a href="https://drive.google.com/file/d/15dQHlqqH4svyQtJ9bRJW91joLMsTuUtr/view?usp=sharing" target="_blank" title="Download CV" class="button button-primary">Download CV</a>
+   		</div>   		
+   	</div>
+
+   </section> <!-- /process-->    
+
+
+   <!-- resume Section
+   ================================================== -->
+	<section id="resume" class="grey-section">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Resume</h5>
+            <h2>More of my Credentials</h2>
+   		</div>   		
+   	</div> <!-- /section-intro--> 
+
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Education</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Bachelor's Degree</h3>
+	   					<p>October 2020-(2023)</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4><a href="https://du.ac.in/" target="_blank">Delhi University</a></h4>
+	   					<p>Pursuing my Graduation in B.A(Hons) ENGLISH</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+                
+                
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Full Stack Web Development</h3>
+	   					<p>January 2022 - Present 2022</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4><a href="https://www.masaischool.com/courses/full-stack-web-dev-full-time/?gclid=CjwKCAjw8sCRBhA6EiwA6_IF4QKF085CK_HfUFHxRUTY6XXvdDhOCUwUYM1yPEi2vjMjujk5mLqvlRoCi_MQAvD_BwE" target="_blank">MASAI</a></h4>
+	   					<p>Learned Full Stack WEB DEVELOPMENT from MASAI SCHOOL </p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+   			</div> <!-- /timeline-wrap -->   			
+
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
+		
+	</section> <!-- /features -->
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
+
 </body>
+
 </html>
