@@ -1960,8 +1960,25 @@ header{
 .popup-modal .link-box a:first-child {
 	border-right: 1px solid rgba(200, 200, 200, 0.1);
 }
+.popup-modal .gitbtn a:first-child {
+	border-right: 1px solid rgba(200, 200, 200, 0.1);
+}
 .popup-modal .link-box a:hover {
 	background:  #e65171;
+	border: none;
+}
+.popup-modal .link-box .gitbtn:hover {
+	background:  #e65171;
+	width:47%;
+	/* position:fixed; */
+	border: none;
+}
+.popup-modal .link-box .gitbtn {
+	background:  black;
+	width:47%;
+	color:white;
+	font-size: small;
+	/* text-align: center; */
 	border: none;
 }
 @media only screen and (max-width:600px) {
