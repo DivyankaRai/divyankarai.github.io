@@ -1087,7 +1087,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	justify-content: space-between;
 	align-items: center;
 	justify-items: left;
-	padding: 30px;
+	padding: 2%;
 	overflow: hidden;
 	 z-index: 100;
 	position: fixed;
@@ -1100,14 +1100,14 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 #leftnav{
- /* width: 20%; */
- font-size: 2rem;
+ width: 30%;
+ font-size: 1.8rem;
 }
 
 #rightnav{
 	display: flex;
-	/* width: 70%; */
-	gap: 30px;
+	width: 60%;
+	gap: 5%;
 	flex-wrap: wrap;
 	font-size: 1.6rem;
 	
