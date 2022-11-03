@@ -681,7 +681,7 @@ input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
 	background: #bebebe;
-	color: #000000;
+	/* color: #000000; */
 	outline: 0;
 }
 .button.button-primary,
@@ -1083,22 +1083,25 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 #navbar{
 	background-color: #151515;
 	display: flex;
+	width: 100%;
 	justify-content: space-between;
 	align-items: center;
 	justify-items: left;
 	padding: 30px;
-	position: relative;
 	overflow: hidden;
+	 z-index: 100;
+	position: fixed;
+	
 }
 #navbar a{
 	color: #e65171;
-	font-size: 20px;
 	font-weight: bold;
 	font-family:"poppins-medium", sans-serif;
 }
 
 #leftnav{
  /* width: 20%; */
+ font-size: 2rem;
 }
 
 #rightnav{
@@ -1106,8 +1109,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	/* width: 70%; */
 	gap: 30px;
 	flex-wrap: wrap;
+	font-size: 1.6rem;
 	
-	justify-content: space-evenly; 
+	justify-content: space-evenly;
+	/* border: 1px solid white;  */
 
 }
 
@@ -1783,10 +1788,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	background: #FFFFFF;
 	padding-top: 12rem;
 	padding-bottom: 12rem;
+	/* border: 2px solid red; */
 }
 #portfolio .folio-item {
 	padding: 0;
 	position: relative;
+	/* border: 2px solid red; */
 	overflow: hidden;
 }
 #portfolio .folio-item img {
@@ -1814,8 +1821,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 #portfolio .folio-item-table {
 	display: table;
-	width: 100%;
+	border: 2px solid red;
+	width: 60%;
 	height: 90%;
+	margin-left: 5%;
 }
 #portfolio .folio-item-cell {
 	display: table-cell;
