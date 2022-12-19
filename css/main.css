@@ -66,11 +66,11 @@ html, body {
 	height: 100%;
 }
 body {
-	background: #151515;
+	background: #00008B;
 	font-family: "lora-regular", serif;
 	font-size: 1.7rem;
 	line-height: 3rem;
-	color: #6e6e6e;
+	color: gray;
 }
 
 /**
@@ -78,7 +78,7 @@ body {
  * -------------------------------------------------------------------
  */
 a, a:visited {
-	color: #000000;
+	color: #00008B;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -98,7 +98,7 @@ a:hover, a:focus, a:active {
  */
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
 	font-family: "poppins-semibold", sans-serif;
-	color: #313131;
+	color: #00008B;
 	font-style: normal;
 	text-rendering: optimizeLegibility;
 	margin-bottom: 2.1rem;
@@ -152,7 +152,7 @@ p.lead {
 	font-family: "lora-regular", serif;
 	font-size: 2rem;
 	line-height: 1.8;
-	color: #888888;
+	color: #00008B;
 }
 @media only screen and (max-width:768px) {
 	p.lead {
@@ -185,7 +185,7 @@ blockquote:before {
 	font-size: 8rem;
 	line-height: 0px;
 	margin: 0;
-	color: #313131;
+	color: red;
 	font-family: arial, sans-serif;
 	position: absolute;
 	top: 3rem;
@@ -297,7 +297,7 @@ ul.disc li::before {
 	width: 8px;
 	height: 8px;
 	border-radius: 50%;
-	background:  #87CEFA;
+	background:  #00BFFF;
 	position: absolute;
 	left: -17px;
 	top: 11px;
@@ -690,7 +690,7 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-	background: #313131;
+	background: #00008B;
 	color: #FFFFFF;
 }
 .button.button-primary:hover,
@@ -704,7 +704,7 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-	background: #1f1f1f;
+	background: #00008B;
 }
 button.full-width, .button.full-width {
 	width: 100%;
@@ -722,7 +722,7 @@ button.large, .button.large {
 }
 button.stroke, .button.stroke {
 	background: transparent !important;
-	border: 3px solid #313131;
+	border: 3px solid #00008B;
 	line-height: 4.8rem;
 }
 button.stroke.medium, .button.stroke.medium {
@@ -732,8 +732,8 @@ button.stroke.large, .button.stroke.large {
 	line-height: 5.4rem !important;
 }
 button.stroke:hover, .button.stroke:hover {
-	border: 3px solid  #87CEFA;
-	color:  #87CEFA;
+	border: 3px solid  #00008B;
+	color:  #00008B;
 }
 button::-moz-focus-inner, input::-moz-focus-inner {
 	border: 0;
@@ -1646,7 +1646,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 .about-content .info-list li strong {
 	font-family: "poppins-bold", sans-serif;
-	color: black;
+	color: #00008B;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
 	font-size: 1.5rem;
@@ -1767,7 +1767,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	height: 4.8rem;
 	width: 4.8rem;
 	line-height: 4.8rem;
-	background: #313131;
+	background: #00008B;
 	border-radius: 50%;
 	text-align: center;
 	color: #FFFFFF;
@@ -1809,7 +1809,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	display: block;
 	height: 3px;
 	width: 50px;
-	background: rgba(0, 0, 0, 0.2);
+	background: #00008B;
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -1935,7 +1935,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 #portfolio .folio-item-table {
 	display: table;
-	border: 2px solid red;
+	/* border: 2px solid red; */
 	width: 60%;
 	height: 90%;
 	margin-left: 5%;
@@ -2163,7 +2163,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	display: block;
 	height: 3px;
 	width: 80px;
-	background: rgba(0, 0, 0, 0.2);
+	/* background: red; */
 	position: absolute;
 	left: 50%;
 	bottom: 0;
@@ -2212,7 +2212,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	color: white;
 }
 #services .section-intro h5 {
-	color:  #e65171
+	color:  #87CEFA
 }
 #services .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
@@ -2234,7 +2234,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 .services-list .icon i {
 	font-size: 5.4rem;
-	color:  #e65171
+	color:  #87CEFA
 }
 .services-list h3 {
 	color: #FFFFFF;
@@ -2589,7 +2589,7 @@ footer a, footer a:visited {
 	color: #FFFFFF;
 }
 footer a:hover, footer a:focus {
-	color:  #e65171;
+	color:  white;
 }
 footer .row {
 	max-width: 900px;
@@ -2620,7 +2620,7 @@ footer .copyright span::after {
 	content: "|";
 	display: inline-block;
 	padding: 0 1rem 0 1.2rem;
-	color: rgba(255, 255, 255, 0.1);
+	color: blue;
 }
 footer .copyright span:last-child::after {
 	display: none;
