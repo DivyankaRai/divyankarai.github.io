@@ -37,129 +37,6 @@
 
    <!-- favicons ================================================== -->
 	<link rel="icon" type="image/png" href="favicon.png">
-	<style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-} 
-nav{
-  display: flex;
-  position: fixed;
-  z-index: 1;
-  height: 80px;
-  width: 100%;
-  background: #87CEFA;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 50px 0 40px;
-  flex-wrap: wrap;
-}
-nav .logo{
-  color: #00008B;
-  font-size: 25px;
-  font-weight: 600;
-  margin-top: -10px;
-}
-nav ul{
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  margin-top: 2rem;
-}
-nav ul li{
-  margin: 0 5px;
-}
-nav ul li a{
-  color: #00008B;
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: 500;
-  padding: 8px 15px;
-  border-radius: 5px;
-  letter-spacing: 1px;
-  transition: all 0.3s ease;
-}
-nav ul li a.active,
-nav ul li a:hover{
-  color: #00008B;
-}
-nav .menu-btn i{
-  color: #00008B;
-  font-size: 22px;
-  cursor: pointer;
-  display: none;
-}
-input[type="checkbox"]{
-  display: none;
-}
-@media (max-width: 1000px){
-  nav{
-    padding: 0 40px 0 20px;
-  }
-}
-@media (max-width: 920px) {
-  nav .menu-btn i{
-    display: block;
-  }
-  #click:checked ~ .menu-btn i:before{
-    content: "\f00d";
-  }
-  nav ul{
-    position: fixed;
-    top: 100px;
-    left: -120%;
-    background: #87CEFA;
-    height: 80vh;
-    width: 100%;
-	margin-left: -2%;
-	margin-top: -6%;
-    text-align: center;
-    display: block;
-    transition: all 0.3s ease;
-  }
-  #click:checked ~ ul{
-    left: 0;
-  }
-  nav ul li{
-    width: 100%;
-    margin: 30px 0;
-  }
-  nav ul li a{
-    width: 100%;
-    margin-left: -100%;
-	color: #87CEFA;
-    display: block;
-    font-size: 20px;
-    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
-  #click:checked ~ ul li a{
-    margin-left: 0px;
-  }
-  nav ul li a.active,
-  nav ul li a:hover{
-    background: none;
-	color: #00008B;
-  }
-}
-.content{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  z-index: -1;
-  width: 100%;
-  padding: 0 30px;
-}
-.content div{
-  font-size: 40px;
-  font-weight: 700;
-}
-
-    </style>
 
 </head>
 
@@ -451,23 +328,22 @@ input[type="checkbox"]{
 				
 		 </div>
 
-		 <div class="bgrid folio-item" style="margin-top: 5%" >
-			<div style="margin-left:9%" class="item-wrap">
-				<img style="width: 95%" src="https://i.postimg.cc/Hsz2pySW/Screenshot-10.png" alt="timecamp" />
+		 <div class="bgrid folio-item" >
+			<div style="margin-left:1%; margin-right: 3%; margin-top: 7%; " class="item-wrap">
+				<img style="width: 95%" src="https://i.postimg.cc/Hsz2pySW/Screenshot-10.png" alt="HomeToGo" />
 				<h2 style="margin-top: 2%">Timecamp Website Clone</h2>
 				<h4 style="font-size: small">
-				Timecamp.com very well known for time tracking your current project/tasks or planning for upcoming projects/tasks.
+					Timecamp.com very well known for time tracking your current project/tasks or planning for upcoming projects/tasks.
 				</h4>
-				<h4 style="font-size: small">React, Redux, Chakra-UI, MongoDB, Mongoose, Express.JS, Postman</h4>
-				</div>
-				<a href="https://roaring-travesseiro-7b0d65.netlify.app/" target="_blank" style="margin-left: 25%"><i class="fa fa-eye" style="font-size: 30px;"></i></a>
-				<a href="https://github.com/bishal00sharma/TimeCampClone" target="_blank" style="margin-left: 25%"><i class="fa fa-github" style="font-size: 30px;"></i></a>
-			
-	</div> 
+				<h4 style="font-size: small">Tech Stack: HTML, CSS JAVASCRIPT, LOCAL-STORAGE</h4>
+			</div>
+			<a href="https://roaring-travesseiro-7b0d65.netlify.app/" target="_blank" style="margin-left: 25%"><i class="fa fa-eye"  style="font-size: 30px;"></i></a>
+			<a href="https://github.com/bishal00sharma/TimeCampClone" target="_blank" style="margin-left: 25%"><i class="fa fa-github" style="font-size: 30px;"></i></a>
+		</div> 
 
-		<div class="bgrid folio-item" style="margin-top: 4%;">
-			<div style="margin-left:1%; margin-right: 3%;" class="item-wrap">
-				<img style="width: 95%" src="https://i.postimg.cc/CxGx9DMD/sense.png" alt="SENSE"  />
+		<div class="bgrid folio-item">
+			<div style="margin-left:9%; margin-top: 7%;" class="item-wrap">
+				<img style="width: 95%" src="https://i.postimg.cc/CxGx9DMD/sense.png" alt="SENSE" />
 				<h2 style="margin-top: 2%">Ssense Website Clone</h2>
 				<h4 style="font-size: small">
 					An E-commerce website where you will get luxurious brands for both men and women.
@@ -476,7 +352,7 @@ input[type="checkbox"]{
 				<h4 style="font-size: small">Tech Stack: HTML, CSS JAVASCRIPT, LOCAL-STORAGE</h4>
 			</div>
 			<a href="https://admirable-tanuki-3e239e.netlify.app/" target="_blank" style="margin-left: 25%"><i class="fa fa-eye" style="font-size: 30px;"></i></a>
-				 <a href="https://github.com/sarwjeet424/Project-work-website" target="_blank" style="margin-left: 25%"><i class="fa fa-github" style="font-size: 30px;"></i></a>
+			<a href="https://github.com/sarwjeet424/Project-work-website" target="_blank" style="margin-left: 25%"><i class="fa fa-github" style="font-size: 30px;"></i></a>
 			
 	 </div>
 	         </div>
