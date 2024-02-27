@@ -48,15 +48,14 @@
 		  <i class="fas fa-bars"></i>
 		</label>
 		<ul>
-		  <li><a class="active" href="#">Home</a></li>
-		  <li><a href="#about">About</a></li>
-		  <li><a href="#skills">Skills</a></li>
-		  <li><a href="#portfolio">Projects</a></li>
-		  <li><a href="./Divyanka_Rai_Resume.pdf" download onclick="resumeBtn()">Resume</a></li>
-		  <li><a href="#contact">Contact</a></li>
+		  <li><a class="active" href="#" onclick="closeMenu()">Home</a></li>
+		  <li><a href="#about" onclick="closeMenu()">About</a></li>
+		  <li><a href="#skills" onclick="closeMenu()">Skills</a></li>
+		  <li><a href="#portfolio" onclick="closeMenu()">Projects</a></li>
+		  <li><a href="./Divyanka_Rai_Resume.pdf" download onclick=" resumeBtn()" style="color:#00008B;">Resume</a></li>
+		  <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
 		</ul>
 	  </nav>
-   
 	<!-- intro section
    ================================================== -->
    <section id="intro">   
@@ -542,8 +541,18 @@
 		x.className = "topnav";
 	  }
 	}
+	function closeMenu() {
+            var checkBox = document.getElementById("click");
+            if (checkBox.checked) {
+                checkBox.checked = false;
+            }
+        }
 	function resumeBtn(){
 		window.open("https://drive.google.com/file/d/15dQHlqqH4svyQtJ9bRJW91joLMsTuUtr/view?usp=share_link")
+		var checkBox = document.getElementById("click");
+            if (checkBox.checked) {
+                checkBox.checked = false;
+         }
 	}
 	</script>
    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>

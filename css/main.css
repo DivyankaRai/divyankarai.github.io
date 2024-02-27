@@ -2728,7 +2728,7 @@ input[type="checkbox"]{
 	color: #87CEFA;
     display: block;
     font-size: 25px;
-	margin-top: -1rem;
+	/* margin-top: -1rem; */
     transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
   #click:checked ~ ul li a{
@@ -2741,6 +2741,53 @@ input[type="checkbox"]{
 	color: #00008B;
   }
 }
+@media (max-width: 620px) {
+	nav .menu-btn i{
+	  display: block;
+	}
+	#click:checked ~ .menu-btn i:before{
+	  content: "\f00d";
+	}
+	nav ul{
+	  position: fixed;
+	  top: 78px;
+	  left: -120%;
+	  background: #87CEFA;
+	  height: auto;
+	  width: 100%;
+	  margin-left: -2%;
+	  margin-top: -6%;
+	  text-align: center;
+	  display: block;
+	  transition: all 0.3s ease;
+	}
+	#click:checked ~ ul{
+	  left: 0;
+	}
+	nav ul li{
+	  width: 100%;
+	  margin: 20px 0;
+	}
+	nav ul li a{
+	  width: 100%;
+	  margin-left: -100%;
+	  color: #87CEFA;
+	  display: block;
+	  font-size: 20px;
+	  /* background: #000; */
+	  margin-top: -1rem;
+	  transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	}
+	#click:checked ~ ul li a{
+	  margin-left: 0px;
+	  margin-top: 20px;
+	}
+	nav ul li a.active,
+	nav ul li a:hover{
+	  background: none;
+	  color: #00008B;
+	}
+  }
 .content{
   position: absolute;
   top: 50%;
