@@ -1544,8 +1544,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  */
 #about {
 	background: #FFFFFF;
-	padding-top: 12rem;
+	padding-top: 5rem;
 	padding-bottom: 15rem;
+	/* border: 2px solid red; */
 }
 #about .section-intro {
 	margin-bottom: 3rem;
@@ -1554,34 +1555,40 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .intro-info {
 	margin-top: 4.5rem;
 	/* margin-right: -5px; */
-	margin-left: -80px;
+	margin-left: 20px;
 }
 .intro-info img {
 	height: 9rem;
 	width: 9rem;
 	border-radius: 55%;
 	margin: .10rem 0 0 0;
-	float: left;
+	float: center;
+	margin-top: -10px;
 }
 .intro-info .lead {
-	text-align: left;
-	padding-left: 13rem;
+	text-align: center;
+	/* padding-left: 1rem; */
 	
 }
 
 .about-content {
 	position: relative;
-	text-align: left;
-	max-width: 850px;
+	text-align: center;
+	max-width: 750px;
 	margin-bottom: 3.6rem;
+	/* border:2px solid red; */
+	margin-top: -10px;
 }
-.about-content h3 {
+.about-content h2 {
+	text-align: center;
+}
+/* .about-content h3 {
 	font-family: "poppins-bold", sans-serif;
 	font-size: 1.8rem;
 	text-transform: uppercase;
 	letter-spacing: .25rem;
-}
-.about-content .info-list {
+} */
+/* .about-content .info-list {
 	list-style: none;
 	margin-left: 0;
 }
@@ -1606,7 +1613,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 .about-content .skill-bars {
 	margin-top: 6rem;
-}
+} */
 
 .button-section {
 	text-align: center;
@@ -1845,7 +1852,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  */
 #portfolio {
 	background: #FFFFFF;
-	padding-top: 12rem;
+	padding-top: 2rem;
 	padding-bottom: 12rem;
 	/* border: 2px solid red; */
 }
@@ -2801,4 +2808,37 @@ input[type="checkbox"]{
 .content div{
   font-size: 40px;
   font-weight: 700;
+}
+/* ********************************** skills ********************** */
+#skills{
+	background-color:white;
+	position: relative;
+	text-align: center;
+	max-width: 100%;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	/* margin-bottom: 0.6rem; */
+	/* border:2px solid red; */
+	margin-top: -10px;
+}
+#skills h2{
+	font-size: 30px;
+	color:#00008B;
+}
+.skill_div{
+	max-width: 750px;
+	margin: auto;
+	display: flex;
+}
+#backend{
+	margin-left: 60px;
+}
+
+@media (max-width: 620px) {
+	.skill_div{
+		display: block;
+	}
+	#backend{
+		margin-left: 0px;
+	}
 }
